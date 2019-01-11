@@ -11,7 +11,7 @@ export const diff = (a, b) => {
             b = c;
         }
         b = b - a;
-        a = 0
+        a = 0;
     }
 
     if (b <= 180) {
